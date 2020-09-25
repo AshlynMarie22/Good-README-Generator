@@ -10,7 +10,6 @@
 * [Contributing](#contributing)
 * [Testing](#testing)
 * [Questions](#questions)
-* [License](#mit-license)
 
 
 ## Description
@@ -63,7 +62,11 @@ https://test.com
 
 
 ## How to Use:
-1.Open the terminal and make sure you are inside the Develop folder.  2.Enter: ‘node index.js’ 3.Hit enter  4.Answer all of the prompts.   5.View your generated ReadMe!
+1. Open the terminal and make sure you are inside the Develop folder.  
+2. Enter: ‘node index.js’ 
+3. Hit enter  
+4. Answer all of the prompts.   
+5. View your generated ReadMe!
 
 ## Contributing:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
