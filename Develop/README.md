@@ -1,10 +1,5 @@
-// function to generate markdown for README
-const bashStart = "```bash";
-const bashEnd = "````";
-
-function generateMarkdown(data) {
-  return `# <img src="https://media.giphy.com/media/3og0INs7kEnoBYDGNi/giphy.gif" width="30px"> ${data.title} <img src="https://media.giphy.com/media/3og0INs7kEnoBYDGNi/giphy.gif" width="30px">
-![anything](https://img.shields.io/badge/license-${data.license}-${data.color})
+# <img src="https://media.giphy.com/media/3og0INs7kEnoBYDGNi/giphy.gif" width="30px"> Good ReadMe Generator <img src="https://media.giphy.com/media/3og0INs7kEnoBYDGNi/giphy.gif" width="30px">
+![anything](https://img.shields.io/badge/license-MIT-red)
 
 ## Table of Contents
 
@@ -20,34 +15,34 @@ function generateMarkdown(data) {
 
 ## Description
 
-${data.description}
+This application is a generator for a ReadMe file. This application has a pre-made template that is auto populated after the user answers a series of prompts. 
 
 ## Installation
 
 Clone this repo by using:
 
-${bashStart}
-git clone ${data.installation}
-${bashEnd}
+```bash
+git clone https://github.com/AshlynMarie22/Good-README-Generator.git
+````
 
 Next check to make sure there weren't any problems:
-${bashStart}
+```bash
 git status
-${bashEnd}
+````
 
 If there are no problems you are ready to add it:
 
-${bashStart}
+```bash
 git add .
-${bashEnd}
+````
 
 Now that the repo is cloned you can preview the website. Open the cloned repo folder in Visual Studio.
 
 If you have the shortcut installed:
 
-${bashStart}
+```bash
 code .
-${bashEnd}
+````
 
 Open the index.html file.
 
@@ -62,26 +57,22 @@ Then right click anywhere in the html file and select "Open in Default Browser":
 ## Preview Website
 
 Website URL: 
-${data.url}
+https://test.com
 
-![screenshot2](${data.screenshot})
+![screenshot2](https://via.placeholder.com/500x300)
 
 
 ## How to Use:
-${data.usage}
+1.Open the terminal and make sure you are inside the Develop folder. /n 2.Enter: ‘node index.js’ /n 3.Hit enter /n 4.Answer all of the prompts.  /n 5.View your generated ReadMe!
 
 ## Contributing:
-${data.contributing}
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
 
 ## Testing:
-${data.tests}
+Test info will go here
 
 ## Questions?:
-If you have questions regarding ${data.title}, contact me at: ${data.questions}
+If you have questions regarding Good ReadMe Generator, contact me at: ashlyn.marie.smith2@gmail.com
 
 ---
 
-`;
-}
-
-module.exports = generateMarkdown;
