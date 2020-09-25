@@ -15,7 +15,6 @@ function generateMarkdown(data) {
 * [Contributing](#contributing)
 * [Testing](#testing)
 * [Questions](#questions)
-* [License](#mit-license)
 
 
 ## Description
